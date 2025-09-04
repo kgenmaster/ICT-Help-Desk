@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $valid_username = 'bunashay';
+    $valid_username = 'admin';
     $valid_password = '123';
     // --- END SECURE CREDENTIAL CHECK ---
 

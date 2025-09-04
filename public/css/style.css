@@ -23,6 +23,10 @@ body {
     padding: 0;
 }
 
+main {
+    padding: 40px 0;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -57,6 +61,7 @@ nav ul {
     gap: 20px;
 }
 
+
 nav a {
     text-decoration: none;
     color: var(--text-color);
@@ -66,11 +71,6 @@ nav a {
 
 nav a:hover {
     color: var(--primary-color);
-}
-
-/* Main Content & Sections */
-main {
-    padding: 40px 0;
 }
 
 .hero {
@@ -326,4 +326,96 @@ footer {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+/* Login Page Styles */
+/* --- Login Page Specific Styles --- */
+
+.registration-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: var(--heading-color);
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(33, 109, 49, 0.25);
+    outline: none;
+}
+
+.fullwidth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.fullwidth-btn:hover {
+    background-color: #1e5a2c;
+    transform: translateY(-2px);
+}
+
+.message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.link-style {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
 }

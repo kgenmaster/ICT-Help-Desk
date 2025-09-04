@@ -14,8 +14,10 @@
             <nav class="sidebar-nav">
                 <ul>
                     <li><a href="admin_dashboard.php">Dashboard</a></li>
-                    <li><a href="tickets_detail.php">Tickets</a></li>
-                    <li><a href="admin_logout.php">Logout</a></li>
+                    <li><a href="admin_tickets.php">Manage Tickets</a></li>
+                    <li><a href="admin_users.php">Manage Users</a></li>
+                    <li><a href="admin_technician.php">Register Technician</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                 </ul>
             </nav>
         </aside>

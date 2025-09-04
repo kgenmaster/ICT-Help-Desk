@@ -393,11 +393,10 @@ footer {
 }
 
 
-
 /* Login Page Styles */
-/* --- Admin Login Page Specific Styles --- */
+/* --- Login Page Specific Styles --- */
 
-.admin-page {
+.login-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +413,6 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    animation: fadeIn 0.8s ease-in;
 }
 
 .login-container h2 {
@@ -443,7 +441,6 @@ footer {
     border-radius: 5px;
     font-size: 1rem;
     box-sizing: border-box;
-    transition: border-color 0.3s ease;
 }
 
 .form-group input:focus {
@@ -462,7 +459,6 @@ footer {
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-primary:hover {
@@ -476,5 +472,28 @@ footer {
     border-radius: 5px;
     font-weight: 500;
     text-align: center;
-    animation: fadeIn 0.5s ease-out;
+}
+
+.registration-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.fullwidth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.fullwidth-btn:hover {
+    background-color: #1e5a2c;
+    transform: translateY(-2px);
 }
